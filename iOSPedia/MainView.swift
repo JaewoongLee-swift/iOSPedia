@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            Text("리스트를 채웁시다.")
+                .padding()
+                .navigationTitle("Curry의 iOSPedia")
+        }
     }
 }
 
