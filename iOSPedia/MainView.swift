@@ -10,10 +10,10 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationView {
-            Text("리스트를 채웁시다.")
-                .padding()
+            ContentList()
                 .navigationTitle("Curry의 iOSPedia")
         }
+        
     }
 }
 
