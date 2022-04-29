@@ -3,24 +3,24 @@
         "id" : 0,
         "title" : "Swift 문법"
         "description" : "Swift 기본문법 이해하기"
-        "image" : "swiftLogo"
+        "imageName" : "swiftLogo"
     },
     {
         "id" : 1,
         "title" : "SwiftUI"
         "description" : "SwiftUI를 유용하게 사용하기 위한 개념"
-        "image" : "swiftUILogo"
+        "imageName" : "swiftUILogo"
     },
     {
         "id" : 2,
         "title" : "Human Interface Guide"
         "description" : "앱 디자인을 위한 HIG의 기본"
-        "image" : "HIGLogo"
+        "imageName" : "HIGLogo"
     },
     {
         "id" : 3,
         "title" : "Design"
         "description" : "다양한 Design Principle을 알아보기"
-        "image" : "appleLogo"
+        "imageName" : "appleLogo"
     }
 ]
