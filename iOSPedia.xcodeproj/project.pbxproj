@@ -14,6 +14,7 @@
 		55648CA9281BBE2D008A00FC /* iOSPediaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 55648CA8281BBE2D008A00FC /* iOSPediaData.json */; };
 		55648CAB281BC04E008A00FC /* iOSPedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CAA281BC04E008A00FC /* iOSPedia.swift */; };
 		55648CAD281BC249008A00FC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CAC281BC249008A00FC /* ModelData.swift */; };
+		55648CAF281BD607008A00FC /* ContentListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CAE281BD607008A00FC /* ContentListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		55648CA8281BBE2D008A00FC /* iOSPediaData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iOSPediaData.json; sourceTree = "<group>"; };
 		55648CAA281BC04E008A00FC /* iOSPedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPedia.swift; sourceTree = "<group>"; };
 		55648CAC281BC249008A00FC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		55648CAE281BD607008A00FC /* ContentListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				55648C96281BBC90008A00FC /* iOSPediaApp.swift */,
 				55648C98281BBC90008A00FC /* MainView.swift */,
+				55648CAE281BD607008A00FC /* ContentListRow.swift */,
 				55648CA8281BBE2D008A00FC /* iOSPediaData.json */,
 				55648CAA281BC04E008A00FC /* iOSPedia.swift */,
 				55648CAC281BC249008A00FC /* ModelData.swift */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55648CAF281BD607008A00FC /* ContentListRow.swift in Sources */,
 				55648C99281BBC90008A00FC /* MainView.swift in Sources */,
 				55648CAD281BC249008A00FC /* ModelData.swift in Sources */,
 				55648C97281BBC90008A00FC /* iOSPediaApp.swift in Sources */,

@@ -7,8 +7,10 @@
 
 import Foundation
 
+var iosPedia: [iOSPedia] = jsonLoad("iOSPediaData.json")
+
 //JSON 파일 데이터 불러오는 함수
-func load<T: Decodable>(_ filename: String) -> T {
+func jsonLoad<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
     // JSON 파일 호출
