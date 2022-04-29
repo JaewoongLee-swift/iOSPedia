@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55648C97281BBC90008A00FC /* iOSPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648C96281BBC90008A00FC /* iOSPediaApp.swift */; };
-		55648C99281BBC90008A00FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648C98281BBC90008A00FC /* ContentView.swift */; };
+		55648C99281BBC90008A00FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648C98281BBC90008A00FC /* MainView.swift */; };
 		55648C9B281BBC91008A00FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55648C9A281BBC91008A00FC /* Assets.xcassets */; };
 		55648C9E281BBC91008A00FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55648C9D281BBC91008A00FC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		55648C93281BBC90008A00FC /* iOSPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55648C96281BBC90008A00FC /* iOSPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPediaApp.swift; sourceTree = "<group>"; };
-		55648C98281BBC90008A00FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55648C98281BBC90008A00FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		55648C9A281BBC91008A00FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55648C9D281BBC91008A00FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				55648C96281BBC90008A00FC /* iOSPediaApp.swift */,
-				55648C98281BBC90008A00FC /* ContentView.swift */,
+				55648C98281BBC90008A00FC /* MainView.swift */,
 				55648C9A281BBC91008A00FC /* Assets.xcassets */,
 				55648C9C281BBC91008A00FC /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55648C99281BBC90008A00FC /* ContentView.swift in Sources */,
+				55648C99281BBC90008A00FC /* MainView.swift in Sources */,
 				55648C97281BBC90008A00FC /* iOSPediaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
