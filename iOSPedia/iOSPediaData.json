@@ -3,24 +3,172 @@
         "id" : 0,
         "title" : "Swift 문법",
         "description" : "Swift 기본문법 이해하기",
-        "imageName" : "swiftLogo"
+        "imageName" : "swiftLogo",
+        "category" : [
+            {
+                "id" : 0,
+                "name" : "struct, class",
+                "contents" : ""
+            },
+            {
+                "id" : 1,
+                "name" : "enum",
+                "contents" : ""
+            },
+            {
+                "id" : 2,
+                "name" : "if/else, guard, Comparison Operators",
+                "contents" : ""
+            },
+            {
+                "id" : 3,
+                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
+                "contents" : ""
+            },
+            {
+                "id" : 4,
+                "name" : "switch/case",
+                "contents" : ""
+            },
+            {
+                "id" : 5,
+                "name" : "nil, Forced Unwrapping, Optional Binding",
+                "contents" : ""
+            },
+            {
+                "id" : 6,
+                "name" : "Arrays, Dicionaries",
+                "contents" : ""
+            }
+        ]
     },
     {
         "id" : 1,
         "title" : "SwiftUI",
         "description" : "SwiftUI를 유용하게 사용하기 위한 개념",
-        "imageName" : "swiftUILogo"
+        "imageName" : "swiftUILogo",
+        "category" : [
+            {
+                "id" : 0,
+                "name" : "struct, class",
+                "contents" : ""
+            },
+            {
+                "id" : 1,
+                "name" : "enum",
+                "contents" : ""
+            },
+            {
+                "id" : 2,
+                "name" : "if/else, guard, Comparison Operators",
+                "contents" : ""
+            },
+            {
+                "id" : 3,
+                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
+                "contents" : ""
+            },
+            {
+                "id" : 4,
+                "name" : "switch/case",
+                "contents" : ""
+            },
+            {
+                "id" : 5,
+                "name" : "nil, Forced Unwrapping, Optional Binding",
+                "contents" : ""
+            },
+            {
+                "id" : 6,
+                "name" : "Arrays, Dicionaries",
+                "contents" : ""
+            }
+        ]
     },
     {
         "id" : 2,
         "title" : "Human Interface Guide",
         "description" : "앱 디자인을 위한 HIG의 기본",
-        "imageName" : "HIGLogo"
+        "imageName" : "HIGLogo",
+        "category" : [
+            {
+                "id" : 0,
+                "name" : "struct, class",
+                "contents" : ""
+            },
+            {
+                "id" : 1,
+                "name" : "enum",
+                "contents" : ""
+            },
+            {
+                "id" : 2,
+                "name" : "if/else, guard, Comparison Operators",
+                "contents" : ""
+            },
+            {
+                "id" : 3,
+                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
+                "contents" : ""
+            },
+            {
+                "id" : 4,
+                "name" : "switch/case",
+                "contents" : ""
+            },
+            {
+                "id" : 5,
+                "name" : "nil, Forced Unwrapping, Optional Binding",
+                "contents" : ""
+            },
+            {
+                "id" : 6,
+                "name" : "Arrays, Dicionaries",
+                "contents" : ""
+            }
+        ]
     },
     {
         "id" : 3,
         "title" : "Design",
         "description" : "다양한 Design Principle을 알아보기",
-        "imageName" : "appleLogo"
+        "imageName" : "appleLogo",
+        "category" : [
+            {
+                "id" : 0,
+                "name" : "struct, class",
+                "contents" : ""
+            },
+            {
+                "id" : 1,
+                "name" : "enum",
+                "contents" : ""
+            },
+            {
+                "id" : 2,
+                "name" : "if/else, guard, Comparison Operators",
+                "contents" : ""
+            },
+            {
+                "id" : 3,
+                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
+                "contents" : ""
+            },
+            {
+                "id" : 4,
+                "name" : "switch/case",
+                "contents" : ""
+            },
+            {
+                "id" : 5,
+                "name" : "nil, Forced Unwrapping, Optional Binding",
+                "contents" : ""
+            },
+            {
+                "id" : 6,
+                "name" : "Arrays, Dicionaries",
+                "contents" : ""
+            }
+        ]
     }
 ]
