@@ -14,6 +14,7 @@ struct ContentList: View {
                     .background(Color.white)
                     .cornerRadius(15.0)
                     .listRowSeparator(.hidden)
+                    .shadow(radius: 3.0)
             }
             .background(Color(red: 248/255, green: 248/255, blue: 248/255))
             .listStyle(.plain)

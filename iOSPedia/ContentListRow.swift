@@ -11,7 +11,7 @@ struct ContentListRow: View {
     var iosPedia: iOSPedia
     
     var body: some View {
-//        NavigationLink {
+        NavigationLink(destination: CategoryView()) {
         HStack(spacing: 0) {
             // 크기조정 > 꽉차게 들어가도록 > width 100, height 100
                 iosPedia.image
@@ -34,11 +34,11 @@ struct ContentListRow: View {
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
-                
+            
                 Spacer()
             }
+        }
         .listRowBackground(Color(red: 248/255, green: 248/255, blue: 248/255))
-//        }
     }
 }
 
