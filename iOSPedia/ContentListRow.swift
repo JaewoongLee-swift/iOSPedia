@@ -11,7 +11,7 @@ struct ContentListRow: View {
     var iosPedia: iOSPedia
     
     var body: some View {
-        NavigationLink(destination: CategoryView()) {
+        NavigationLink(destination: CategoryView(categories: iosPedia.category)) {
         HStack(spacing: 0) {
             // 크기조정 > 꽉차게 들어가도록 > width 100, height 100
                 iosPedia.image
