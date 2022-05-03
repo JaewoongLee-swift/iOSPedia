@@ -20,8 +20,6 @@ struct ContentsView: View {
                 .background(Color(red: 248/255, green: 248/255, blue: 248/255))
                 .navigationTitle(bodyTitle)
         }
-        
-        
     }
 }
 

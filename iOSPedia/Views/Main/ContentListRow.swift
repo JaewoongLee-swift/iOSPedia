@@ -12,15 +12,15 @@ struct ContentListRow: View {
     
     var body: some View {
         NavigationLink(destination: CategoryView(categories: iosPedia.category)) {
-        HStack(spacing: 0) {
-            // 크기조정 > 꽉차게 들어가도록 > width 100, height 100
+            HStack(spacing: 0) {
+                // 크기조정 > 꽉차게 들어가도록 > width 100, height 100
                 iosPedia.image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 100.0, height: 100.0)
                     .cornerRadius(15.0)
                     .padding()
-            
+                
                 VStack(alignment: .leading) {
                     Text(iosPedia.title)
                         .font(.title3)
@@ -32,7 +32,7 @@ struct ContentListRow: View {
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
-            
+                
                 Spacer()
             }
         }
