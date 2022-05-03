@@ -28,9 +28,7 @@ struct ContentListRow: View {
                     Text("")
                     Text(iosPedia.description)
                         .font(.caption)
-                    
-                    //TODO: 내부 카테고리 개수에 따라 텍스트가 변하도록 구현
-                    Text("10개의 게시물")
+                    Text("\(iosPedia.category.count)개의 게시물")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }

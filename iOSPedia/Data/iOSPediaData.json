@@ -8,37 +8,37 @@
             {
                 "id" : 0,
                 "name" : "struct, class",
-                "contents" : ""
+                "contentURL" : "https://jaewoonglee-swift.github.io/swift/Swift-Unicode-Extended-Grapheme-Clusters/"
             },
             {
                 "id" : 1,
                 "name" : "enum",
-                "contents" : ""
+                "contentURL" : ""
             },
             {
                 "id" : 2,
                 "name" : "if/else, guard, Comparison Operators",
-                "contents" : ""
+                "contentURL" : ""
             },
             {
                 "id" : 3,
                 "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
-                "contents" : ""
+                "contentURL" : ""
             },
             {
                 "id" : 4,
                 "name" : "switch/case",
-                "contents" : ""
+                "contentURL" : ""
             },
             {
                 "id" : 5,
                 "name" : "nil, Forced Unwrapping, Optional Binding",
-                "contents" : ""
+                "contentURL" : ""
             },
             {
                 "id" : 6,
                 "name" : "Arrays, Dicionaries",
-                "contents" : ""
+                "contentURL" : ""
             }
         ]
     },
@@ -50,38 +50,18 @@
         "category" : [
             {
                 "id" : 0,
-                "name" : "struct, class",
-                "contents" : ""
+                "name" : "List 만들기",
+                "contentURL" : ""
             },
             {
                 "id" : 1,
-                "name" : "enum",
-                "contents" : ""
+                "name" : "NavigationView, NavigationLink",
+                "contentURL" : ""
             },
             {
                 "id" : 2,
-                "name" : "if/else, guard, Comparison Operators",
-                "contents" : ""
-            },
-            {
-                "id" : 3,
-                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
-                "contents" : ""
-            },
-            {
-                "id" : 4,
-                "name" : "switch/case",
-                "contents" : ""
-            },
-            {
-                "id" : 5,
-                "name" : "nil, Forced Unwrapping, Optional Binding",
-                "contents" : ""
-            },
-            {
-                "id" : 6,
-                "name" : "Arrays, Dicionaries",
-                "contents" : ""
+                "name" : "@State, @Binding",
+                "contentURL" : ""
             }
         ]
     },
@@ -93,38 +73,33 @@
         "category" : [
             {
                 "id" : 0,
-                "name" : "struct, class",
-                "contents" : ""
+                "name" : "Design Themes",
+                "contentURL" : ""
             },
             {
                 "id" : 1,
-                "name" : "enum",
-                "contents" : ""
+                "name" : "Design Principles",
+                "contentURL" : ""
             },
             {
                 "id" : 2,
-                "name" : "if/else, guard, Comparison Operators",
-                "contents" : ""
+                "name" : "Navigation",
+                "contentURL" : ""
             },
             {
                 "id" : 3,
-                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
-                "contents" : ""
+                "name" : "Navigation Bars",
+                "contentURL" : ""
             },
             {
                 "id" : 4,
-                "name" : "switch/case",
-                "contents" : ""
+                "name" : "Tables",
+                "contentURL" : ""
             },
             {
                 "id" : 5,
-                "name" : "nil, Forced Unwrapping, Optional Binding",
-                "contents" : ""
-            },
-            {
-                "id" : 6,
-                "name" : "Arrays, Dicionaries",
-                "contents" : ""
+                "name" : "Scroll Views",
+                "contentURL" : ""
             }
         ]
     },
@@ -136,38 +111,33 @@
         "category" : [
             {
                 "id" : 0,
-                "name" : "struct, class",
-                "contents" : ""
+                "name" : "아이폰 기본앱, 팁 앱",
+                "contentURL" : ""
             },
             {
                 "id" : 1,
-                "name" : "enum",
-                "contents" : ""
+                "name" : "App의 색상에 대하여",
+                "contentURL" : ""
             },
             {
                 "id" : 2,
-                "name" : "if/else, guard, Comparison Operators",
-                "contents" : ""
+                "name" : "Sketch 사용 Tip",
+                "contentURL" : ""
             },
             {
                 "id" : 3,
-                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
-                "contents" : ""
+                "name" : "색과 디자인 의사결정",
+                "contentURL" : ""
             },
             {
                 "id" : 4,
-                "name" : "switch/case",
-                "contents" : ""
+                "name" : "게슈탈트 이론",
+                "contentURL" : ""
             },
             {
                 "id" : 5,
-                "name" : "nil, Forced Unwrapping, Optional Binding",
-                "contents" : ""
-            },
-            {
-                "id" : 6,
-                "name" : "Arrays, Dicionaries",
-                "contents" : ""
+                "name" : "iOS/HIG 바깥의 세상",
+                "contentURL" : ""
             }
         ]
     }

@@ -11,12 +11,14 @@ struct CategoryListRow: View {
     var categoryContent: CategoryContent
     
     var body: some View {
-        HStack {
-            Text(categoryContent.name)
-                .font(.body)
-                .padding()
-            
-            Spacer()
+        NavigationLink(destination: ContentsView(contentURL: categoryContent.contentURL, bodyTitle: categoryContent.name)) {
+            HStack {
+                Text(categoryContent.name)
+                    .font(.body)
+                    .padding()
+                
+                Spacer()
+            }
         }
         .listRowBackground(Color(red: 248/255, green: 248/255, blue: 248/255))
     }

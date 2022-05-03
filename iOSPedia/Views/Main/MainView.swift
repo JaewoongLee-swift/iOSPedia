@@ -13,7 +13,6 @@ struct MainView: View {
             ContentList()
                 .navigationTitle("Curry의 iOSPedia")
         }
-        
     }
 }
 

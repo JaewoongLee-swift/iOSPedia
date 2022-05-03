@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 struct iOSPedia: Identifiable, Codable {
     var id: Int
     var title: String
@@ -25,5 +24,5 @@ struct iOSPedia: Identifiable, Codable {
 struct CategoryContent: Codable, Identifiable {
     var id: Int
     var name: String
-    var contents: String
+    var contentURL: String
 }
