@@ -14,6 +14,7 @@ struct CategoryListRow: View {
         NavigationLink(destination: ContentsView(contentURL: categoryContent.contentURL, bodyTitle: categoryContent.name)) {
             HStack {
                 Text(categoryContent.name)
+                    .foregroundColor(.black)
                     .font(.body)
                     .padding()
                 

@@ -28,15 +28,36 @@ struct SearchView: View {
         return array
     }()
     
+    var filteredContents: [CategoryContent] {
+        if searchText == "" {
+            return contentTitles
+        }
+        
+        return contentTitles.filter {
+            $0.name.lowercased().contains(searchText.lowercased())
+        }
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
                 SearchBar(closeView: $closeModal, text: $searchText)
                     .padding(EdgeInsets(top: 10.0, leading: 0.0, bottom: 10.0, trailing: 0.0))
                 
-                List(contentTitles.filter({ $0.name.lowercased().contains(searchText.lowercased()) || searchText == ""
-                })) { categoryContent in
-                        NavigationLink(destination: ContentsView(contentURL: categoryContent.contentURL, bodyTitle: categoryContent.name)) {
+                if filteredContents.count == 0 {
+                    Spacer()
+                    
+                    Text("검색결과가 존재하지 않습니다.")
+                        .foregroundColor(.secondary)
+                        .font(.system(size: 25.0))
+                        .bold()
+                    
+                    Spacer()
+                } else {
+                    List(filteredContents, id: \.self) { categoryContent in
+                        NavigationLink {
+                            ContentsView(contentURL: categoryContent.contentURL, bodyTitle: categoryContent.name)
+                        } label: {
                             Text(categoryContent.name)
                         }
                     }
@@ -45,10 +66,11 @@ struct SearchView: View {
                         hideKeyboard()
                     }
                 }
+            }
             // 네비게이션 바 숨기기 위함
             .navigationBarHidden(true)
-            }
         }
+    }
 }
 
 //화면 터치시 키보드 숨김

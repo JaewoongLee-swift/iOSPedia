@@ -23,10 +23,12 @@ struct ContentListRow: View {
                 
                 VStack(alignment: .leading) {
                     Text(iosPedia.title)
+                        .foregroundColor(.black)
                         .font(.title3)
                     // title 텍스트와 description, 게시물갯수 텍스트의 공간을 주기 위함
                     Text("")
                     Text(iosPedia.description)
+                        .foregroundColor(.black)
                         .font(.caption)
                     Text("\(iosPedia.category.count)개의 게시물")
                         .font(.caption)
