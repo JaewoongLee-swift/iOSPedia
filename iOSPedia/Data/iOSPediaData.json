@@ -49,17 +49,17 @@
         "imageName" : "swiftUILogo",
         "category" : [
             {
-                "id" : 0,
+                "id" : 7,
                 "name" : "List 만들기",
                 "contentURL" : ""
             },
             {
-                "id" : 1,
+                "id" : 8,
                 "name" : "NavigationView, NavigationLink",
                 "contentURL" : ""
             },
             {
-                "id" : 2,
+                "id" : 9,
                 "name" : "@State, @Binding",
                 "contentURL" : ""
             }
@@ -72,32 +72,32 @@
         "imageName" : "HIGLogo",
         "category" : [
             {
-                "id" : 0,
+                "id" : 10,
                 "name" : "Design Themes",
                 "contentURL" : ""
             },
             {
-                "id" : 1,
+                "id" : 11,
                 "name" : "Design Principles",
                 "contentURL" : ""
             },
             {
-                "id" : 2,
+                "id" : 12,
                 "name" : "Navigation",
                 "contentURL" : ""
             },
             {
-                "id" : 3,
+                "id" : 13,
                 "name" : "Navigation Bars",
                 "contentURL" : ""
             },
             {
-                "id" : 4,
+                "id" : 14,
                 "name" : "Tables",
                 "contentURL" : ""
             },
             {
-                "id" : 5,
+                "id" : 15,
                 "name" : "Scroll Views",
                 "contentURL" : ""
             }
@@ -110,32 +110,32 @@
         "imageName" : "appleLogo",
         "category" : [
             {
-                "id" : 0,
+                "id" : 16,
                 "name" : "아이폰 기본앱, 팁 앱",
                 "contentURL" : ""
             },
             {
-                "id" : 1,
+                "id" : 17,
                 "name" : "App의 색상에 대하여",
                 "contentURL" : ""
             },
             {
-                "id" : 2,
+                "id" : 18,
                 "name" : "Sketch 사용 Tip",
                 "contentURL" : ""
             },
             {
-                "id" : 3,
+                "id" : 19,
                 "name" : "색과 디자인 의사결정",
                 "contentURL" : ""
             },
             {
-                "id" : 4,
+                "id" : 20,
                 "name" : "게슈탈트 이론",
                 "contentURL" : ""
             },
             {
-                "id" : 5,
+                "id" : 21,
                 "name" : "iOS/HIG 바깥의 세상",
                 "contentURL" : ""
             }

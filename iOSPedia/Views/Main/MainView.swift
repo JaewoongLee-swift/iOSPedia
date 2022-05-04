@@ -10,7 +10,7 @@ import SwiftUI
 struct MainView: View {
     
     @State private var searchText = ""
-    @State var showModal: Bool = false
+    @State var showView: Bool = false
     
     var body: some View {
         NavigationView {
@@ -21,12 +21,12 @@ struct MainView: View {
                     ToolbarItem(placement: .navigationBarTrailing)
                     {
                         Button(action: {
-                            showModal = true
+                            showView = true
                         }, label: {
                             Image(systemName: "magnifyingglass")
                         })
-                        .fullScreenCover(isPresented: $showModal) {
-                            SearchView()
+                        .fullScreenCover(isPresented: $showView) {
+                            SearchView(closeModal: $showView)
                         }
                     }
                 }

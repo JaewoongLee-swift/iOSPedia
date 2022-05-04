@@ -10,7 +10,9 @@ import SwiftUI
 struct SearchBar: View {
     
     // SearchView를 닫기 위한 변수
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @Binding var closeView: Bool
+    
+    // TextField의 텍스트를 받는 변수
     @Binding var text: String
     
     var body: some View {
@@ -18,7 +20,7 @@ struct SearchBar: View {
             HStack {
                 Image(systemName: "magnifyingglass")
                 
-                TextField("Search", text: $text)
+                TextField("검색", text: $text)
                     .foregroundColor(.primary)
                 
                 if !text.isEmpty {
@@ -38,11 +40,10 @@ struct SearchBar: View {
             .cornerRadius(10.0)
             
             Button {
-                self.presentationMode.wrappedValue.dismiss()
+                closeView = false
             } label: {
                 Text("취소")
             }
-            
         }
         .padding(.horizontal)
     }

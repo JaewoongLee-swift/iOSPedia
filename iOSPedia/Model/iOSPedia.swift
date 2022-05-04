@@ -21,7 +21,7 @@ struct iOSPedia: Identifiable, Codable {
     }
 }
 
-struct CategoryContent: Codable, Identifiable {
+struct CategoryContent: Identifiable, Codable {
     var id: Int
     var name: String
     var contentURL: String
