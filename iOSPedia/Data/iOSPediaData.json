@@ -8,35 +8,30 @@
             {
                 "id" : 0,
                 "name" : "struct, class",
-                "contentURL" : "https://jaewoonglee-swift.github.io/swift/Swift-Unicode-Extended-Grapheme-Clusters/"
+                "contentURL" : ""
             },
             {
                 "id" : 1,
-                "name" : "enum",
-                "contentURL" : ""
+                "name" : "Switch - fallthrough",
+                "contentURL" : "https://jaewoonglee-swift.github.io/swift/Swift-switch-fallthrough/"
             },
             {
                 "id" : 2,
-                "name" : "if/else, guard, Comparison Operators",
-                "contentURL" : ""
+                "name" : "Subscript",
+                "contentURL" : "https://jaewoonglee-swift.github.io/swift/Swift-Subscript/"
             },
             {
                 "id" : 3,
-                "name" : "Int, Double, Numeric Literal, Numeric Type, Conversion, Bool",
-                "contentURL" : ""
+                "name" : "Unicode - Extended Grapheme Clusters",
+                "contentURL" : "https://jaewoonglee-swift.github.io/swift/Swift-Unicode-Extended-Grapheme-Clusters/"
             },
             {
                 "id" : 4,
-                "name" : "switch/case",
-                "contentURL" : ""
-            },
-            {
-                "id" : 5,
                 "name" : "nil, Forced Unwrapping, Optional Binding",
                 "contentURL" : ""
             },
             {
-                "id" : 6,
+                "id" : 5,
                 "name" : "Arrays, Dicionaries",
                 "contentURL" : ""
             }
@@ -74,7 +69,7 @@
             {
                 "id" : 0,
                 "name" : "Design Themes",
-                "contentURL" : ""
+                "contentURL" : "https://jaewoonglee-swift.github.io/hig/HIG-iOS-Design-Themes/"
             },
             {
                 "id" : 1,

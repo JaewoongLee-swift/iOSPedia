@@ -16,6 +16,14 @@
 		55648CAD281BC249008A00FC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CAC281BC249008A00FC /* ModelData.swift */; };
 		55648CAF281BD607008A00FC /* ContentListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CAE281BD607008A00FC /* ContentListRow.swift */; };
 		55648CB1281C1F31008A00FC /* ContentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CB0281C1F31008A00FC /* ContentList.swift */; };
+		55648CB3281FC7A6008A00FC /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CB2281FC7A6008A00FC /* CategoryView.swift */; };
+		55648CB5281FC978008A00FC /* CategoryListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CB4281FC978008A00FC /* CategoryListRow.swift */; };
+		55648CB7281FCE83008A00FC /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CB6281FCE83008A00FC /* CategoryList.swift */; };
+		55648CB928200A37008A00FC /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CB828200A37008A00FC /* ContentsView.swift */; };
+		55648CC12821165E008A00FC /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CC02821165E008A00FC /* WebViewModel.swift */; };
+		55648CC328211A24008A00FC /* PreparingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CC228211A24008A00FC /* PreparingView.swift */; };
+		55648CC52821487D008A00FC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CC42821487D008A00FC /* SearchBar.swift */; };
+		55648CC728214B04008A00FC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55648CC628214B04008A00FC /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,14 @@
 		55648CAC281BC249008A00FC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		55648CAE281BD607008A00FC /* ContentListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListRow.swift; sourceTree = "<group>"; };
 		55648CB0281C1F31008A00FC /* ContentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentList.swift; sourceTree = "<group>"; };
+		55648CB2281FC7A6008A00FC /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		55648CB4281FC978008A00FC /* CategoryListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListRow.swift; sourceTree = "<group>"; };
+		55648CB6281FCE83008A00FC /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		55648CB828200A37008A00FC /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
+		55648CC02821165E008A00FC /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		55648CC228211A24008A00FC /* PreparingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparingView.swift; sourceTree = "<group>"; };
+		55648CC42821487D008A00FC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		55648CC628214B04008A00FC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				55648C96281BBC90008A00FC /* iOSPediaApp.swift */,
-				55648C98281BBC90008A00FC /* MainView.swift */,
-				55648CB0281C1F31008A00FC /* ContentList.swift */,
-				55648CAE281BD607008A00FC /* ContentListRow.swift */,
-				55648CA8281BBE2D008A00FC /* iOSPediaData.json */,
-				55648CAA281BC04E008A00FC /* iOSPedia.swift */,
-				55648CAC281BC249008A00FC /* ModelData.swift */,
+				55648CBD28201C4B008A00FC /* Views */,
+				55648CBF28201C69008A00FC /* Model */,
+				55648CBE28201C5B008A00FC /* Data */,
 				55648C9A281BBC91008A00FC /* Assets.xcassets */,
 				55648C9C281BBC91008A00FC /* Preview Content */,
 			);
@@ -80,6 +93,65 @@
 				55648C9D281BBC91008A00FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55648CBA28201C2B008A00FC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				55648C98281BBC90008A00FC /* MainView.swift */,
+				55648CB0281C1F31008A00FC /* ContentList.swift */,
+				55648CAE281BD607008A00FC /* ContentListRow.swift */,
+				55648CC628214B04008A00FC /* SearchView.swift */,
+				55648CC42821487D008A00FC /* SearchBar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		55648CBB28201C36008A00FC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				55648CB2281FC7A6008A00FC /* CategoryView.swift */,
+				55648CB6281FCE83008A00FC /* CategoryList.swift */,
+				55648CB4281FC978008A00FC /* CategoryListRow.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		55648CBC28201C3F008A00FC /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				55648CB828200A37008A00FC /* ContentsView.swift */,
+				55648CC228211A24008A00FC /* PreparingView.swift */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		55648CBD28201C4B008A00FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55648CBA28201C2B008A00FC /* Main */,
+				55648CBB28201C36008A00FC /* Category */,
+				55648CBC28201C3F008A00FC /* Contents */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55648CBE28201C5B008A00FC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				55648CA8281BBE2D008A00FC /* iOSPediaData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		55648CBF28201C69008A00FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55648CC02821165E008A00FC /* WebViewModel.swift */,
+				55648CAA281BC04E008A00FC /* iOSPedia.swift */,
+				55648CAC281BC249008A00FC /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +226,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				55648CAF281BD607008A00FC /* ContentListRow.swift in Sources */,
+				55648CC328211A24008A00FC /* PreparingView.swift in Sources */,
+				55648CB3281FC7A6008A00FC /* CategoryView.swift in Sources */,
+				55648CB928200A37008A00FC /* ContentsView.swift in Sources */,
+				55648CB5281FC978008A00FC /* CategoryListRow.swift in Sources */,
 				55648C99281BBC90008A00FC /* MainView.swift in Sources */,
 				55648CB1281C1F31008A00FC /* ContentList.swift in Sources */,
 				55648CAD281BC249008A00FC /* ModelData.swift in Sources */,
+				55648CC52821487D008A00FC /* SearchBar.swift in Sources */,
 				55648C97281BBC90008A00FC /* iOSPediaApp.swift in Sources */,
+				55648CC728214B04008A00FC /* SearchView.swift in Sources */,
 				55648CAB281BC04E008A00FC /* iOSPedia.swift in Sources */,
+				55648CB7281FCE83008A00FC /* CategoryList.swift in Sources */,
+				55648CC12821165E008A00FC /* WebViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSPedia/Preview Content\"";
+				DEVELOPMENT_TEAM = 8B3RT7D582;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,6 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSPedia/Preview Content\"";
+				DEVELOPMENT_TEAM = 8B3RT7D582;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

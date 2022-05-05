@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct MainView: View {
-    
-    @State private var searchText = ""
     @State var showView: Bool = false
     
     var body: some View {
@@ -26,7 +24,7 @@ struct MainView: View {
                             Image(systemName: "magnifyingglass")
                         })
                         .fullScreenCover(isPresented: $showView) {
-                            SearchView(closeModal: $showView)
+                            SearchView(closeView: $showView)
                         }
                     }
                 }

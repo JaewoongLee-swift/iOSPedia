@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SearchView: View {
     
-    @Binding var closeModal: Bool
+    @Binding var closeView: Bool
     @State private var searchText = ""
     
     // 각 컨텐츠의 이름들을 배열로 담음
@@ -41,7 +41,7 @@ struct SearchView: View {
     var body: some View {
         NavigationView {
             VStack {
-                SearchBar(closeView: $closeModal, text: $searchText)
+                SearchBar(closeView: $closeView, text: $searchText)
                     .padding(EdgeInsets(top: 10.0, leading: 0.0, bottom: 10.0, trailing: 0.0))
                 
                 if filteredContents.count == 0 {

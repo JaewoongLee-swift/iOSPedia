@@ -20,7 +20,6 @@ struct CategoryList: View {
                     .shadow(radius: 3.5)
                     .padding(EdgeInsets(top: 5.0, leading: 15.0, bottom: 5.0, trailing: 15.0))
             }
-        .listStyle(.plain)
         }
         .background(Color(red: 248/255, green: 248/255, blue: 248/255))
     }

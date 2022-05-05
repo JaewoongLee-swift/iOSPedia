@@ -19,7 +19,6 @@ struct ContentList: View {
                     .shadow(radius: 5.0)
             }
             .background(Color(red: 248/255, green: 248/255, blue: 248/255))
-        .listStyle(.plain)
         }
     }
 }
